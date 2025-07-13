@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>about me linkedin</title>
+        </head>
+        <body>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Taj_Mahal_in_March_2004.jpg" alt="Taj Mahal" width="300">
+            <header>
+                <b>i</b>
+                <i>am</i>
+                <u>mahitha</u>
+            </header>
+            <main>
+                <section id="About me">
+                    <p>I am mahitha an ug under post graduate student in IIIT pune </p>
+                    <pre>
+                        I am currently studeying second year in ece department in maharastra state!!
+                    </pre>
+                </section>
+                <section id="skills">
+                    <h4>my skills are:</h4>
+                    <ul>
+                        <li>python</li>
+                        <li>c</li>
+                        <li>c++</li>
+                        <li>dsa</li>
+                        <li>html</li>
+                    </ul>
+                    <ol>
+                        <li>intrapersonal communication skills:</li>
+                        <ul>
+                            <li>group mangement</li>
+                            <li>good communication</li>
+                        </ul>
+                        <li>hard working</li>
+                    </ol>
+
+
+                </section>
+                <section id="your conctact details">
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" placeholder="enter your name">
+                        <br>
+                        <label for="email">"email</label>
+                        <input type="email" placeholder="xxxxxxx@gmail.com">
+                        <br>
+                        <p>select your gender</p>
+                        <input type="radio" id="male" value="male">
+                        <label for="male">male</label>
+                        <input type="radio" id="female" value="female">
+                        <label for="female">female</label>
+
+
+                    </form>
+                </section>
+
+            </main>
+            <footer>
+                <table>
+                    <tr>
+                        <th>
+                            name
+                        </th>
+                        <th>mis number</th>
+                    </tr>
+
+                    <tr>
+                        <td>mahitha</td>
+                        <td>112416032</td>
+                    </tr>
+                </table>
+                    <div>
+                        <p>it is goning fine and there atre alsos span which is inline function which was not uesd here...</p>
+                    </div>
+            </footer>
+        </body>
+    </html>
