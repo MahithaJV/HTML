@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+     <div></div>
+
+  </body>
+</html>
+
+
+
+div{
+  height: 100px;
+  width:100px;
+
+  border:6px solid green;
+  border-top:6px solid black ;
+  border-radius: 50%;
+  animation:mahitha 2s ease-in 0s infinite normal;
+}
+ @keyframes mahitha{
+   from{
+     transform: rotate(0deg);
+   }
+   to{
+     transform: rotate(360deg);
+   }
+ }
+ 
+ div:hover{
+   background-color: yellow;
+   border:10px solid pink;
+ }
+ 
