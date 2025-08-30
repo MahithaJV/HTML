@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahitha JV - Portfolio</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #4a90e2;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      padding: 0.5rem 0;
+    }
+
+    a {
+      color: #4a90e2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .skills span {
+      display: inline-block;
+      margin: 0.3rem;
+      padding: 0.5rem 1rem;
+      background: #e6f0fa;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #4a90e2;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mahitha JV</h1>
+    <p>IIIT Pune | CSE Student | Growing Web Developer</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <ul>
+      <li>Hi, I’m <b>Mahitha</b>, a <b>CSE student</b> at <b>IIIT Pune</b>.</li>
+      <li>I’m <b>growing in web development</b> and consistently learning new skills.</li>
+      <li>I know the basics of <b>HTML, CSS, JavaScript, and Python</b>.</li>
+      <li>I’ve built small projects like a <b>Counter App</b> and a <b>To-Do List App</b>.</li>
+      <li>I’m eager to build <b>bigger and impactful projects</b> as I progress.</li>
+      <li>I believe in <b>continuous learning and improvement</b>.</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Python</span>
+      <span>Web Development (Learning)</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>✔ Counter App (JavaScript)</li>
+      <li>✔ To-Do List App (JavaScript)</li>
+      <li>🚀 More projects coming soon as I grow in web development...</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Check out my work and connect with me:</p>
+    <ul>
+      <li><a href="https://github.com/dashboard" target="_blank">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/mahithajv" target="_blank">LinkedIn</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Mahitha JV | Portfolio</p>
+  </footer>
+
+</body>
+</html>
